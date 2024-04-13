@@ -8,6 +8,7 @@ body{
 nav{ display: flex;
 justify-content: space-between;
 align-items: center;
+ margin:0 200px;
 }
 
 .nav-portfolio{
@@ -40,4 +41,27 @@ nav a{
     color: white;
     font-weight: 700;
 
+}
+/* Header releted style */
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    background-color: #fff8f3;
+    border: 1px  solid #ff9900;
+    color: #ff9900;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner .profile-picture {
+    width: 500px;
 }
