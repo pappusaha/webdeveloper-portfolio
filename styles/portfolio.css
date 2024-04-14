@@ -114,6 +114,10 @@ margin-bottom: 25px;
 }
 
 /* MAIN SECTION */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About section */
 .about{
 
@@ -122,5 +126,13 @@ margin-bottom: 25px;
     background: rgb(255, 248, 243);
     margin-top: 130px;
 
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
 
