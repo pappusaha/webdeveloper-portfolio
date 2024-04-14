@@ -54,6 +54,7 @@ text-align: center;
 font-size: 18px;
 text-align: center;
 }
+
 /*
 
 Header releted style */
@@ -136,3 +137,15 @@ main{
     text-align: center;
 }
 
+#what-i-do-discription{
+    padding: 30px 150px;
+}
+.skil{
+    padding: 30px;
+    gap: 24px;
+    background: rgb(255, 255, 255);
+   
+}
+.skill-container{
+    display: flex;
+}
