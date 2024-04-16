@@ -158,3 +158,103 @@ main section{
 
     color: rgb(117, 117, 117);
 }
+/* resume-section styles */
+.section-title {
+color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 112px;
+}
+.resume-column-title{
+
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;  
+  text-align: left;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.resume-item-instraction ,.resume-item-description{
+
+color: rgb(117, 117, 117);
+
+}
+.resume-item-title{
+color: rgb(71, 71, 71);
+
+font-size: 25px;
+font-weight: 700;
+}
+.Download-CV{
+    text-align: center;
+    margin-top: 50px;
+}
+.section-description{
+    text-align: center;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+footer {
+    background:  #fff8f3;
+    height: 780px;
+}
+
+.footer-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.footer-column-left, . {
+    width: 50%;
+}
+.footer-column-right{
+    width: 50%;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-section-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 130px 0 20px 0;
+   
+    
+}
+#text-primary-color{
+    color: rgb(71, 71, 71);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+}
+.form-contact input[type= text] , .form-contact  input[type=email], textarea{
+    display: block;
+    margin-bottom:24px ;
+    background: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 35px ;
+
+ 
+}
+.footer-social-links a{
+    margin-right: 24px;
+}
+
+
+
+
